@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: #fff6f0;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color:rgb(0, 0, 0);
+    background-color: rgb(92, 184, 133);
+    font-family: Roboto;
+    font-size: 50px;
+    margin: -8px;
+    padding: 35px;
+    padding-left: 20px;
+    border-bottom: 12px solid rgb(207, 177, 5);
+    display: flex;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+    gap: 2px;
+  transition: transform 0.4s ease;
+}
+
+.box {
+  min-width: 250px;
+  height: 250px;
+  background: rgb(92, 184, 133);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.learn-btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 5px;
+  background: #111;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.learn-btn:hover {
+  background: #00bfff;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  border: none;
+  background: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main-body {
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding-bottom: 800px;
+}
+
+footer {
+    color: black;
+    background-color: rgb(92, 184, 133);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: Roboto;
+}

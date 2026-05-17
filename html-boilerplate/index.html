@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fare Green Gardens</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Fare Green Gardens</h1>
-<img
-src="c:\Users\sgtan\Downloads\Burger_King_2020.png"
-alt="Burger King" height="275" width="300">
+    <header>
+        <b>Fare Green Gardens</b> 
+    </header>
+    <div class="main-body">
+        <h1>Fare Green Gardens</h1>
+        <p> Description of the Company</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <div class="slider-wrapper">
+                <div class="slider" id="slider">
+                    <div class="box">
+                        <h2>Vegetables</h2>
+                        <button class="learn-btn" onclick="boxClicked(1)">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Flowers</h2>
+                        <button class="learn-btn" onclick="boxClicked(2)">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Plants</h2>
+                        <button class="learn-btn" onclick="boxClicked(3)">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Herbs</h2>
+                        <button class="learn-btn" onclick="boxClicked(4)">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Farmers Market</h2>
+                        <button class="learn-btn" onclick="boxClicked(5)">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Other</h2>
+                        <button class="learn-btn" onclick="boxClicked(6)">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </div>
+    <footer>
+        <h2>Contacts:</h2>
+            <div class="sign-up">
+            </div>
+    </footer>
+
+     <script src="script.js"></script>
 </body>
 </html>
-!
